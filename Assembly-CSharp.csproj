@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\CreateBtnAndEnterGame.cs" />
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\NumberOfMJ.cs" />
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\NumberOfPerson.cs" />
+     <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\PlayScore.cs" />
      <Compile Include="Assets\Scripts\LoginView-Scene\HelpDocument\HelpDocument.cs" />
      <Compile Include="Assets\Scripts\LoginView-Scene\LoginView\LoginBg.cs" />
      <Compile Include="Assets\Scripts\LoginView-Scene\LoginView\ToggleController.cs" />
