@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/GamesLobbyView-Scene.unity
+- path: Assets/Scenes/GameBeginView-Scene.unity
   isLoaded: 1
   isActive: 1
