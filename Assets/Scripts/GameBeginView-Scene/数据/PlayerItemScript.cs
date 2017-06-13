@@ -31,10 +31,14 @@ public class PlayerItemScript : MonoBehaviour {
 
 	public void showChatMessage(int index)
 	{
+		SoundCtrl.getInstance ().playMessageBoxSound (index);
 		showTime = 2.5f;
 		index = index - 1001;
 
+		// 给消息内容给聊天面板text
 		chatMessage.text = GlobalDataScript.getInstant().messageBoxcontent[index] ;
+
+
 
 		// 这里把聊天气泡显示出来
 		chatPaoPao.SetActive(true) ;

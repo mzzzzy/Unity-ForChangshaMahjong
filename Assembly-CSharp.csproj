@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\GlobalDataScript.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\MessageBoxScript.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\PlayerItemScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\SoundCtrl.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\SoundToggleScript.cs" />
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\CreateBtnAndEnterGame.cs" />
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\NumberOfMJ.cs" />

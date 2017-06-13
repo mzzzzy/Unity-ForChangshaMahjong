@@ -17,6 +17,9 @@ public class GlobalDataScript  {
 	// 游戏自定义消息 
 	public   List<String> messageBoxcontent = new List<string>();
 
+	// 游戏声音控制 存在的意义：用户静音 就为false 就不再播放声音了
+	public bool soundToggle = true ;
+
 
 	// Use this for initialsization
 	void Start () {
@@ -38,7 +41,7 @@ public class GlobalDataScript  {
 		messageBoxcontent.Add ("大家好，我叫王小倩 很高兴见到各位");
 		messageBoxcontent.Add ("刘小芳 和你合作很愉快哦");
 		messageBoxcontent.Add ("廖小轩 快点啊我等到花儿都谢了");
-		messageBoxcontent.Add ("黄小琼 交个朋友吧");
+		messageBoxcontent.Add ("黄小琼 你的牌打的也特好了");
 		messageBoxcontent.Add ("下次再玩吧 刘籽繇要走了");
 
 		Debug.Log (messageBoxcontent.Count);
