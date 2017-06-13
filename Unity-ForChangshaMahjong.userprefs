@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GamesLobbyView-Scene/RuleSetting/NumberOfPerson.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameBeginView-Scene/数据/GlobalDataScript.cs">
     <Files>
-      <File FileName="Assets/ThirdpartySDK/Social.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GamesLobbyView-Scene/RuleSetting/NumberOfMJ.cs" Line="18" Column="3" />
-      <File FileName="Assets/Scripts/LoginView-Scene/LoginView/ToggleController.cs" Line="18" Column="15" />
-      <File FileName="Assets/Scripts/GamesLobbyView-Scene/RuleSetting/NumberOfPerson.cs" Line="33" Column="2" />
+      <File FileName="Assets/Scripts/GameBeginView-Scene/数据/GlobalDataScript.cs" Line="13" Column="4" />
+      <File FileName="Assets/Scripts/GameBeginView-Scene/数据/MessageBoxScript.cs" Line="2" Column="1" />
+      <File FileName="Assets/Scripts/GameBeginView-Scene/数据/SoundToggleScript.cs" Line="54" Column="2" />
+      <File FileName="Assets/Scripts/GameBeginView-Scene/数据/PlayerItemScript.cs" Line="43" Column="3" />
+      <File FileName="Assets/Scripts/GameBeginView-Scene/TimeAndElectricity/TimeCurrent.cs" Line="34" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

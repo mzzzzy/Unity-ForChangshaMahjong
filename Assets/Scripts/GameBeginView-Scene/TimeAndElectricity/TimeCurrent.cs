@@ -35,6 +35,6 @@ public class TimeCurrent : MonoBehaviour {
 		string[] arr = timeCurrent.Split (ch);
 
 		text.text = arr[1] ;
-		Debug.Log (arr[1]);
+		//Debug.Log (arr[1]);
 	}
 }
