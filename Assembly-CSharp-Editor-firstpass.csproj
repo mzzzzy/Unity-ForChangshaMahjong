@@ -132,40 +132,40 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Data.Sqlite">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/System.Data.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="DemiLib">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DemiLib/DemiLib.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DemiLib/DemiLib.dll</HintPath>
  </Reference>
  <Reference Include="DemiEditor">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DemiLib/Editor/DemiEditor.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DemiLib/Editor/DemiEditor.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenPro">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenProEditor">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -48,11 +48,17 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameBeginView-Scene\HelpDocument\HelpDocument.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\TimeAndElectricity\TimeCurrent.cs" />
-     <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\GlobalDataScript.cs" />
-     <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\MessageBoxScript.cs" />
-     <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\PlayerItemScript.cs" />
-     <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\SoundCtrl.cs" />
-     <Compile Include="Assets\Scripts\GameBeginView-Scene\数据\SoundToggleScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\GlobalDataScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\MessageBoxScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\PlayerItemScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\SoundCtrl.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\SoundToggleScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\ButtonCallbackMethod.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\ButtonCallbackMethodData.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\Player.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\PlayerMoney.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\playerName.cs" />
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\CreateBtnAndEnterGame.cs" />
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\NumberOfMJ.cs" />
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\NumberOfPerson.cs" />
@@ -110,31 +116,31 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Data.Sqlite">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/System.Data.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="DemiLib">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DemiLib/DemiLib.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DemiLib/DemiLib.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenPro">
- <HintPath>/Users/mzzy1029zy/Desktop/个人项目-非常重要/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ <HintPath>/Users/mzzy1029zy/Desktop/个人项目/Unity-ForChangshaMahjong/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
