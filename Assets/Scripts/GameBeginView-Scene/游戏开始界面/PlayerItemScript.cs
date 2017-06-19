@@ -3,7 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI ;
 
+
+
 public class PlayerItemScript : MonoBehaviour {
+
+	public static PlayerItemScript instant ;
+
+	// 声明停止背景音乐委托
+	public StopBGMMusic stopBGMDelege ;
+
+	public AudioSource BGMAudio ;
+
 
 	// 玩家发出信息展示时间
 	private float showTime ;
@@ -16,6 +26,9 @@ public class PlayerItemScript : MonoBehaviour {
 	{
 		// 玩家没发消息时 不显示聊天气泡
 		chatPaoPao.SetActive(false) ;
+
+		instant = this;
+		BGMAudio = GameObject.FindWithTag("BGMaudioManage").GetComponent<AudioSource>() ;
 
 	}
 
@@ -31,7 +44,13 @@ public class PlayerItemScript : MonoBehaviour {
 
 	public void showChatMessage(int index)
 	{
+		
 		SoundCtrl.getInstance ().playMessageBoxSound (index);
+
+		// 执行委托事件 停止bgm
+		stopBGMDelege ();
+
+
 		showTime = 2.5f;
 		index = index - 1001;
 
@@ -45,6 +64,9 @@ public class PlayerItemScript : MonoBehaviour {
 		// 2.5s后聊天气泡消失s
 		Invoke("hideChatPaoPao",showTime) ;
 
+		// 2s后 背景音乐重新开始
+		Invoke("bgmBegin",3.5f) ;
+
 
 	}
 
@@ -53,4 +75,13 @@ public class PlayerItemScript : MonoBehaviour {
 		chatPaoPao.SetActive(false) ;
 
 	}
+
+	public void bgmBegin()
+	{
+
+		BGMAudio.mute = false;
+	}
+
+
+
 }

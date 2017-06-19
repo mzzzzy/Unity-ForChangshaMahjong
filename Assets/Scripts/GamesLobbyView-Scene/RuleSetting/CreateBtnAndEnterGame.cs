@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement ;
 
 public class CreateBtnAndEnterGame : MonoBehaviour {
 
@@ -25,6 +26,9 @@ public class CreateBtnAndEnterGame : MonoBehaviour {
 		if (NumberOfMJ.instant.isChoose && NumberOfPerson.instant.isChoose && PlayScore._instant.isChoose) {
 		    
 			Debug.Log ("创建游戏成功 进入游戏开始界面");
+
+			SceneManager.LoadScene (2);
+
 		} else
 		{
 			Debug.Log (PlayScore._instant.isChoose);

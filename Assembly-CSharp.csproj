@@ -51,12 +51,15 @@
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\GlobalDataScript.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\MessageBoxScript.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\PlayerItemScript.cs" />
-     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\SoundCtrl.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\SoundToggleScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\游戏开始后\BgmScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\游戏开始后\GameToolScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\游戏开始后\MyMahjongScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\游戏开始后\bottomScript.cs" />
+     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\游戏开始后\麻将分牌算法\RandomAssignment.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\ButtonCallbackMethod.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\ButtonCallbackMethodData.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\NewBehaviourScript.cs" />
-     <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\Player.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\PlayerMoney.cs" />
      <Compile Include="Assets\Scripts\GameBeginView-Scene\游戏开始界面\连接局域网起 所有的按钮回调均在一个方法里\playerName.cs" />
      <Compile Include="Assets\Scripts\GamesLobbyView-Scene\RuleSetting\CreateBtnAndEnterGame.cs" />
@@ -68,6 +71,7 @@
      <Compile Include="Assets\Scripts\LoginView-Scene\LoginView\login_youke.cs" />
      <Compile Include="Assets\Scripts\LoginView-Scene\RegisView\RegistereBg.cs" />
      <Compile Include="Assets\Scripts\LoginView-Scene\SqliteMangeToCSharp\SqliteMangeToCSharp.cs" />
+     <Compile Include="Assets\Scripts\SoundCtrl.cs" />
      <Compile Include="Assets\ThirdpartySDK\Example.cs" />
      <Compile Include="Assets\ThirdpartySDK\Social.cs" />
      <None Include="Assets\Plugins\iOS\UMSocial\SocialLibraries\WeChat\WechatSDK\README.txt" />

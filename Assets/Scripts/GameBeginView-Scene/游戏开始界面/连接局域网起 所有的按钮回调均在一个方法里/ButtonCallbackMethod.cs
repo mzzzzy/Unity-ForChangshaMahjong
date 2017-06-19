@@ -7,8 +7,27 @@ public class ButtonCallbackMethod : MonoBehaviour {
 
 	private NetworkClient client ;
 
+	// 游戏开始 不必要的ui消失
+	public GameObject PlayerChatBtn;
+	// 东南西北出现
+	public GameObject dir ;
+    // 开始发牌
+	public bool isBegin = false ;
+
+	public static ButtonCallbackMethod instant;
+
+	void Awake()
+	{
+		
+		instant = this ;
+		dir.SetActive (false);
+
+	}
+
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
+		
 		
 	}
 	
@@ -17,7 +36,25 @@ public class ButtonCallbackMethod : MonoBehaviour {
 		
 	}
 
-	#region 
+	#region 游戏准备按钮回调方法
+
+	public void playBtnMethod()
+	{
+		PlayerChatBtn.SetActive (false);
+
+		// 开始发牌
+		isBegin = true ;
+
+		dir.SetActive (true);
+	}
+
+
+
+	#endregion
+
+
+
+	#region  host按钮回调方法
 	// host服务器按钮回调
 	// 开启主机 
 	public void InitHost()
@@ -48,9 +85,14 @@ public class ButtonCallbackMethod : MonoBehaviour {
 		// 麻将预设体？ 每个牌家的牌不一样？
 		//ClientScene.RegisterPrefab() ;
 
+
 		// 出牌定时器预设体？
 
+
+
 		// 出牌光标指示器预设体？
+
+
 
 		// 添加玩家
 		ClientScene.AddPlayer(0) ;
