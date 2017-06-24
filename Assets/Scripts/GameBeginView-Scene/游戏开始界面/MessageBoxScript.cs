@@ -25,6 +25,8 @@ public class MessageBoxScript : MonoBehaviour {
 	{
 		gameObject.transform.DOLocalMove (new Vector3 (376, -45), 0.4f);
 
+		gameObject.transform.SetSiblingIndex(gameObject.transform.parent.childCount-1) ;
+
 
 	}
 
